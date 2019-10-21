@@ -10,8 +10,10 @@ void setup()
 void loop()
 {
  digitalWrite(tr, LOW);
+  digitalWrite(tr, HIGH);
 delayMicroseconds(2);
-digitalWrite(tr, HIGH);
+   digitalWrite(tr, LOW);
+
 //delayMicroseconds(10);
 //digitalWrite(tr, LOW);
   long duration=pulseIn(ec,HIGH);
