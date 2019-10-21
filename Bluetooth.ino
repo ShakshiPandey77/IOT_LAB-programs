@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 
-SoftwareSerial BTSerial(10, 11); // RX | TX
+SoftwareSerial BTSerial(10, 11); // RX | TX (10,11) to TX,RX of bluetooth
 
 void setup()
 {
