@@ -36,7 +36,7 @@ if( mySerial.available() >0 ) {
  Serial.println(val); 
 }
 //Relay is on
-f( val == '1' ) {
+if( val == '1' ) {
  digitalWrite(relay1,LOW); }
  else if( val == '2' ) {
  digitalWrite(relay2,LOW); }
