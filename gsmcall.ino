@@ -1,5 +1,5 @@
 #include <SoftwareSerial.h>
-SoftwareSerial cell(2,3);  // (Rx, Tx)
+SoftwareSerial cell(2,3);  // (Rx, Tx) 2,3 to TX,RX of GSM
 
 void setup() {
 cell.begin(9600);
