@@ -1,5 +1,5 @@
 #include<SoftwareSerial.h>        //with led
-SoftwareSerial myserial(9,10);
+SoftwareSerial myserial(9,10); // RX,TX(9,10) to TX,RX of RFID 
 #define led 12
 char tag[]="53002913C4AD";
 char input[12];
